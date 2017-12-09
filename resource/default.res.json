@@ -1,0 +1,18 @@
+{
+	"groups":[
+	{
+		"keys":"bg,title", 
+		"name":"preload"
+	}],
+	"resources":[
+	{
+		"name":"bg",	
+		"type":"image",		
+		"url":"assets/bg.png"	
+	},
+	{
+		"name":"title",
+		"type":"image",
+		"url":"assets/title.png"
+	}]
+}

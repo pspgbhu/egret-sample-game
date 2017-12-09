@@ -149,6 +149,10 @@ class Main extends egret.DisplayObjectContainer {
     await beginLayer.waitToDone();
     this.removeChild(beginLayer); // 从根容器中移除实例
     beginLayer = null;            // 删除引用
+
+    let player: Player = new Player();
+    this.addChild(player);
+    player.init();
   }
 
   /**

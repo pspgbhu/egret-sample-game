@@ -1,7 +1,7 @@
 {
 	"groups":[
 	{
-		"keys":"bg,title,player",
+		"keys":"bg,title,player,gift,monster",
 		"name":"preload"
 	}],
 	"resources":[
@@ -14,6 +14,16 @@
 		"name":"title",
 		"type":"image",
 		"url":"assets/title.png"
+  },
+	{
+		"name":"gift",
+		"type":"image",
+		"url":"assets/heart1.png"
+  },
+	{
+		"name":"monster",
+		"type":"image",
+		"url":"assets/rangifer.png"
   },
 	{
 		"name":"player",

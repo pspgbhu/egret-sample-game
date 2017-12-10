@@ -8,8 +8,9 @@
 		"promise/bin/promise.js"
 	],
 	"game": [
-		"bin-debug/BeginLayer.js",
 		"bin-debug/Flyer.js",
+		"bin-debug/LayerBegin.js",
+		"bin-debug/LayerGame.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Player.js"

@@ -1,4 +1,4 @@
-class BeginLayer extends egret.DisplayObjectContainer {
+class LayerBegin extends egret.DisplayObjectContainer {
 
   constructor() {
     super();

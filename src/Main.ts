@@ -141,19 +141,19 @@ class Main extends egret.DisplayObjectContainer {
     this.addChild(bg);      // 添加图片进根容器
 
     // 舞台第一幕
-    let beginLayer: BeginLayer = new BeginLayer();    // 新建实例
-    this.addChild(beginLayer);  // 添加进根容器
-    beginLayer.init();  // 初始化第一个场景
+    let layerBegin: LayerBegin = new LayerBegin();    // 新建实例
+    this.addChild(layerBegin);  // 添加进根容器
+    layerBegin.init();  // 初始化第一个场景
 
     // 等待第一幕执行完毕
-    await beginLayer.waitToDone();
-    this.removeChild(beginLayer); // 从根容器中移除实例
-    beginLayer = null;            // 删除引用
+    await layerBegin.waitToDone();
+    this.removeChild(layerBegin); // 从根容器中移除实例
+    layerBegin = null;            // 删除引用
 
-    // 实例化 Player 类
-    let player: Player = new Player();
-    this.addChild(player);
-    player.init();
+    // 舞台第二幕
+    let layerGame = new LayerGame();
+    this.addChild(layerGame);
+    layerGame.init();
   }
 
   /**
